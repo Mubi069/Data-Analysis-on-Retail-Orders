@@ -14,6 +14,7 @@
 - [References](#references)
 
 ### Project Overview
+-----
 
 This data analysis project aims to provide insights into the sales performance of a retail company over the past two years. By analyzing various aspects of the retail orders data, we seek to identify trends to answer the objectives (business task) of the project, making data-driven recommendations, and gain a deeper understanding of the company's performance. 
 
