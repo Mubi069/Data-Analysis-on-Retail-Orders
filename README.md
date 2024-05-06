@@ -19,7 +19,7 @@ This data analysis project aims to provide insights into the sales performance o
 
 ### Data Sources
 
-Retail orders data: The secondary data used for this analysis is the "orders.csv" file [Donwload here](https://www.kaggle.com/datasets/ankitbansal06/retail-orders?select=orders.csv ) published in kaggle website, containing detailed information about each sale made by the company on the basis of categories, sub-categories, region , etc. This file also contains the orders datewise.
+Retail orders data: The secondary data used for this analysis is the "orders.csv" file published in [kaggle website](https://www.kaggle.com), containing detailed information about each sale made by the company on the basis of categories, sub-categories, region , etc. This file also contains the orders datewise.
 
 
 ### Tools
