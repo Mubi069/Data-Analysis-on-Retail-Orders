@@ -143,13 +143,16 @@ ORDER BY order_month
 4. For each category which month had highest sales?
 
 ```sql
-WITH tempo as (SELECT category, EXTRACT(year FROM order_date) as year, EXTRACT(month from order_date) as month, sum(sale_price) as sales
-FROM my-first-project-419721.Project_1.orders
-GROUP BY category, year, month
-ORDER BY category, year, month)
+WITH tempo as (
+  SELECT category, EXTRACT(year FROM order_date) as year, EXTRACT(month from order_date) as month, sum(sale_price) as sales
+  FROM my-first-project-419721.Project_1.orders
+  GROUP BY category, year, month
+  ORDER BY category, year, month
+)
 SELECT * FROM (
-SELECT *, row_number() OVER (PARTITION BY category ORDER BY sales DESC) as rn
-from tempo)
+  SELECT *, row_number() OVER (PARTITION BY category ORDER BY sales DESC) AS rn
+  FROM tempo
+)
 WHERE rn=1
 ```
 
@@ -166,7 +169,8 @@ WITH tempt as (
   END) as sales_2022,
   SUM(CASE WHEN order_year=2023 THEN sales ELSE 0 END) as sales_2023
   FROM tempt
-  GROUP BY sub_category)
+  GROUP BY sub_category
+)
 SELECT *, ((sales_2023-sales_2022)*100/sales_2022) as growth
 FROM tempt2
 ORDER BY growth DESC
