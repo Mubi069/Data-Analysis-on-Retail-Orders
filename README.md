@@ -105,6 +105,7 @@ ORDER BY sales DESC
 LIMIT 10
 ```
 ![RevGenPro](https://github.com/Mubi069/Data-Analysis-on-Retail-Orders/assets/162678823/fcc2cacb-1baa-4a0b-ab27-13c6777585bf)
+[View Visualization](https://public.tableau.com/views/TOP_10RevGenPro/RevGenPro?:language=en-US&publish=yes&:sid=&:display_count=n&:origin=viz_share_link)
 
 2. What are the top 5 highest selling products in each region?
 
@@ -119,6 +120,7 @@ SELECT * FROM(
 WHERE rn<=5;
 ```
 ![Top_5 sales in each region](https://github.com/Mubi069/Data-Analysis-on-Retail-Orders/assets/162678823/ad72de47-ffb1-4bb1-8507-5bac962e052a)
+[View Visualization](https://public.tableau.com/views/Region_17150128322830/Top_5salesineachregion?:language=en-US&publish=yes&:sid=&:display_count=n&:origin=viz_share_link)
 
 3. Find the monthly growth comparison for 2022 and 2023 sales.
 
@@ -137,6 +139,8 @@ ORDER BY order_month
 ```
 
 ![MonGroCom_22Vs23](https://github.com/Mubi069/Data-Analysis-on-Retail-Orders/assets/162678823/3fca1819-04c8-4d16-aa33-2f9c7cef2f97)
+[View Visualization](https://public.tableau.com/views/TOP_10RevGenPro/MonGro_22Vs23?:language=en-US&publish=yes&:sid=&:display_count=n&:origin=viz_share_link)
+
 4. For each category which month had highest sales?
 
 ```sql
