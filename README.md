@@ -44,8 +44,16 @@ In the initial data preparation phase, we performed the following tasks:
 EDA involved exploring the sales data to answer key questions (objectives), such as:
 
 - What are the top 10 highest revenue generating products?
+
+![RevGenPro](https://github.com/Mubi069/Data-Analysis-on-Retail-Orders/assets/162678823/fcc2cacb-1baa-4a0b-ab27-13c6777585bf)
+
 - What are the top 5 highest selling products in each region?
+
+![Top_5 sales in each region](https://github.com/Mubi069/Data-Analysis-on-Retail-Orders/assets/162678823/ad72de47-ffb1-4bb1-8507-5bac962e052a)
+
 - Find the monthly growth comparison for 2022 and 2023 sales.
+
+![MonGroCom_22Vs23](https://github.com/Mubi069/Data-Analysis-on-Retail-Orders/assets/162678823/3fca1819-04c8-4d16-aa33-2f9c7cef2f97)
 - For each category which month had highest sales?
 - Which sub-category had highest growth by profit in 2023 compared to 2022?
 
