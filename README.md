@@ -25,9 +25,11 @@ Retail orders data: The secondary data used for this analysis is the "orders.csv
 ### Tools
 
 - Python (Jupyter Notebook) - Data Cleaning
-    - [Download here](https://www.anaconda.com/anaconda-navigator)
+    - [Donwload here](https://www.anaconda.com/anaconda-navigator)
 - SQL (BigQuery sandbox) - Data Analysis
     - [link](https://cloud.google.com/bigquery/docs/sandbox#limits)
+- Tableau Public - Data Visualization
+    - [Donwnload here](https://www.tableau.com/products/public/download)
 
 
 ### Data Cleaning (or) Preparation
@@ -52,7 +54,21 @@ EDA involved exploring the sales data to answer key questions (objectives), such
 Include some interesting code/features worked with
   
 ```sql
-SELECT * FROM
+WITH tempt as (
+  SELECT sub_category, EXTRACT(year FROM order_date) as order_year, SUM(sale_price) as sales  
+  FROM my-first-project-419721.Project_1.orders
+  GROUP BY sub_category, order_year
+), tempt2 as (
+  SELECT sub_category,
+  SUM(CASE WHEN order_year=2022 THEN sales ELSE 0
+  END) as sales_2022,
+  SUM(CASE WHEN order_year=2023 THEN sales ELSE 0 END) as sales_2023
+  FROM tempt
+  GROUP BY sub_category)
+SELECT *, ((sales_2023-sales_2022)*100/sales_2022) as growth
+FROM tempt2
+ORDER BY growth DESC
+LIMIT 1
 ```
 
 ### Results (or) Findings
@@ -75,5 +91,6 @@ I removed a few columns to
 
 ### References
 1. SQL [BigQuery_Intro](https://cloud.google.com/bigquery/docs/introduction-sql)
-2. [Stack Overflow](https://stack.com)
-3. 
+2. Python [Intro](https://docs.python.org/3/tutorial/index.html)
+3. [Tableau Public](https://public.tableau.com/app/discover)
+4. [Stack Overflow](https://stack.com)
