@@ -10,7 +10,6 @@
 - [Data Analysis](#data-analysis)
 - [Results / Findings ](#results-or-findings)
 - [Recommendations](#recommendations)
-- [Limitations](#limitations)
 - [References](#references)
 
 ### Project Overview
@@ -201,21 +200,17 @@ LIMIT 1
 ### Results (or) Findings
 
 The Analysis results are summarized as follows:
-1. Product Category 'Technology' is the best-performing category in terms of revenue whereas,
-  - The sub-category 'Copiers' & 'Machines' under Technology ranks the top most in all regions in terms of revenues.
-
+1. The Company's average sales has been increased in comparison with the previous year, with a noticeable peak during the month of october.
+2. Product Category **'Technology'** is the best-performing category in terms of revenue whereas,
+  - The sub-category *'Copiers'* & *'Machines'* under Technology ranks the top in almost 75% of regions in terms of revenue.
+3. Subsequently, the sub-category *'Supplies'* had highest growth by profit in 2023 compared to the previous year. 
 
 ### Recommendations
 
 Based on the analysis, we recommend the following actions:
-- Invest in marketing and promotions during peak sales seasons to maximize revenue
-- Focus on expanding and promoting products in Technology category.
-- Implement a customer segmentation strategy to target high-LTV customers effectively. (change)
-
-
-### Limitations
-
-I removed a few columns to 
+- Invest in marketing and promotions during peak sales seasons to maximize revenue.
+- Focus on expanding and promoting products in *Technology* category.
+- Concenterate in the regions on the basis of the product in demand, in order to have the stock available.
 
 
 ### References
