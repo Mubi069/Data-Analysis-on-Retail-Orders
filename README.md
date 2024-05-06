@@ -83,7 +83,7 @@ The Analysis results are summarized as follows:
 Based on the analysis, we recommend the following actions:
 - Invest in marketing and promotions during peak sales seasons to maximize revenue
 - Focus on expanding and promoting products in Technology category.
-- Implement a customer segmentation strategy to target high-LTV customers effectively.
+- Implement a customer segmentation strategy to target high-LTV customers effectively. (change)
 
 ### Limitations
 
