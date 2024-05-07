@@ -1,4 +1,4 @@
-# Sales Analysis
+# Retail Sales Analysis
 
 ## Table of Contents
 
