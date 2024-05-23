@@ -206,7 +206,7 @@ LIMIT 1
 The Analysis results are summarized as follows:
 1. The Company's average sales has been increased in comparison with the previous year, with a noticeable peak during the month of october.
 2. Product Category **'Technology'** is the best-performing category in terms of revenue whereas,
-  - The sub-category *'Copiers'* & *'Machines'* under Technology ranks the top in almost 75% of regions in terms of revenue.
+   - The sub-category *'Copiers'* & *'Machines'* under Technology ranks the top in almost 75% of regions in terms of revenue.
 3. Subsequently, the sub-category *'Supplies'* had highest growth by profit in 2023 compared to the previous year. 
 
 ### Recommendations
